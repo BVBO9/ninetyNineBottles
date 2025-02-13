@@ -1,0 +1,40 @@
+Ninety Nine Bottles of Beer
+Develop a program that will print the lyrics to the song "Ninety Nine Bottles of Beer." 
+If you have an objection to the lyrics, or just want to exercise your creativity, 
+you may substitute some other thing to count down in a similar manner.
+
+Features
+
+This assignment features new material that we have covered. Specifically:
+
+Functions (Optionally)
+Loops
+Decisions
+
+Requirements
+
+D Effort:
+Deliver a non-working program that was headed in the right direction.
+
+C Effort:
+The lyrics must cover from 99 to 0 bottles of beer. That means it must end with a 
+whole verse about there being 0 bottles of beer on the wall. For instance:
+
+	Zero bottles of beer on the wall.
+	Zero bottles of beer.
+	We've taken them down and passed them around.
+	Now we're drunk and passed out!
+
+B Effort
+Ask the user how many bottles of beer there are and count down from there. 
+Handle invalid conditions, such as being asked to count down from -99 bottles.
+
+A Effort:
+The lyrics must be in words. That is you must not print the number "99", but the words "Ninety Nine."
+
+Hints
+
+The most brute-force way of converting numbers from 0 to 99 into words is an if-elif-else structure with 100 possibilities. 
+Consider using functions to handle the "tens" digit and handle the "ones" digit. Just be aware the "teens" (11-19) will be exceptions. 
+If you're asking an AI to write code for you, it will likely use language features we have not yet covered, such as lists, to make this code more compact. 
+That would be a sign that perhaps you're letting the AI be the brain and that you're the tool.
